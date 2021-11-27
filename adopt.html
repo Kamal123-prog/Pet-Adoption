@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="project.css">
+    <script src="https://kit.fontawesome.com/3b1ae179a9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="topic">Pet Adoption Point</div>
+        <div class="left">
+            <img src="images\logo.png" height="80px" width="80px">
+            
+    
+    
+    </div>
+    <header>
+        <nav role='navigation' id="mynavigation">
+            <ul>
+                
+                <li><a href="home.html"><button class="btnn">Home</button> </a></li>
+                <li><a href="pets.html"><button class="btnn"> Pets</button></a></li>
+                <!-- <li><a href="3.adopt.html"><button class="btnn"> adopt</button></a></li> -->
+                <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a> -->
+            </ul>
+        </nav>
+    </header>
+
+    
+    <div class="background">
+        <div class="appBackground">
+        <div class="listpostion">
+            <h1 class="formtitle">Adoption Rules</h1>
+                <h3 class="apptitle">Adoption application</h3>
+                <p class="listTitle">To adopt you must:</p>
+                <ul class="list">
+                    <li>
+                        Provide a copy of your government issued photo ID
+                    </li>
+                    <li>
+                        Be at least 18 years of age
+                    </li>
+                    <li>
+                        Understand that adopting can be a 15 to 20 year commitment 
+                    </li>
+                    <li>
+                        Be prepared for ongoing expenses and veterinary care
+                    </li>
+                    <li>
+                        Agree that if for any reason the adoption does not work out then <br>
+                        the animal will be returned to Animals Adoption point
+                    </li>
+                    <li>
+                        Complete the adoption application, providing contact details <br>
+                        and information about the home you can provide
+                    </li>
+                    <li>
+                        If everything seems great the adoption will be complete and you will <br>
+                        sign an adoption agreement and can welcome the animal into your home
+                    </li>
+                    <li>
+                        We will be available to help with any advice you need or answer any questions <br>
+                        to make sure the adoption is rewarding and fun for you and the animal
+                    </li>
+                </ul>
+        </div>
+
+        
+        <form id="form" class="form">
+        <div class="row">
+            <div class="col-6">
+                <div class="form-control">
+                    <label for="firstname">First name</label>
+                    <input type="text" name="firstname" id="firstname">
+                    <i class="fas fa-check-circle"></i>
+			        <i class="fas fa-exclamation-circle"></i>
+			        <small>Error message</small>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="form-control">
+                    <label for="firstname">Last name</label>
+                    <input type="text" name="lastname" id="lastname">
+                    <i class="fas fa-check-circle"></i>
+			        <i class="fas fa-exclamation-circle"></i>
+			        <small>Error message</small>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-control">
+                    <label for="firstname">City</label>
+                    <input type="text" name="city" id="city">
+        
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-control">
+                    <label for="firstname">Physical adress</label>
+                    <input type="text" name="physical adress" id="physical adress">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-control">
+                    <label for="firstname">Date Of Birth</label>
+                    <input type="date" name="age" id="age" >
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-control">
+                    <label for="firstname">Phone number</label>
+                    <input type="text" name="phone" id="phone" >
+                    <i class="fas fa-check-circle"></i>
+			        <i class="fas fa-exclamation-circle"></i>
+			        <small>Error message</small>
+                </div>
+            </div>
+        </div>
+            <div class="form-control">
+                <label for="firstname">Email</label>
+                <input type="email" name="email" id="email" >
+                <i class="fas fa-check-circle"></i>
+			    <i class="fas fa-exclamation-circle"></i>
+			    <small>Error message</small>
+            </div>
+        <div class="form-group">
+            <label for="firstname">Do you currently have any cats, dogs or other animals?&nbsp;&nbsp;
+                <input type="radio" name="owning_pets" id="owning_pets" value="yes">Yes&nbsp;
+            </label>
+            <label for="firstname">
+                <input type="radio" name="owning_pets" id="owning_pets" value="no">No
+            </label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" id="accept-terms" class="form-check-input ">
+            <label for="firstname" class="form-check-label">Accept Terms &amp; Conditions</label>
+        </div>
+        <button type="submit" class="btn btn-outline-primary submitposition">Submit</button>
+    </form>
+    </div></div></div>
+</body>
+</html>
